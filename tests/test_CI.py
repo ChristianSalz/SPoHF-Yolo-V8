@@ -20,6 +20,6 @@ def test_required_folders_exist():
     for folder in required:
         assert os.path.isdir(folder), f"{folder} is missing"
 
-#check requirments.txt
+#check requirements.txt
 def test_requirements_exists():
     assert os.path.isfile("requirements.txt")
